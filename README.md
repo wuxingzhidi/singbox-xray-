@@ -65,7 +65,9 @@
 一键安装脚本如下
 
 bash <(curl -fsSL https://raw.githubusercontent.com/wuxingzhidi/ubound-dns-one-click-installation-script/main/dns-Unbound)
+
 53端口清理脚本
+
 bash <(curl -fsSL https://raw.githubusercontent.com/wuxingzhidi/ubound-dns-one-click-installation-script/main/kill-53)
 * `install` —— 安装并初始化 Unbound。
 * `uninstall` —— 卸载（保留配置文件）。
